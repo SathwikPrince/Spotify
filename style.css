@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ Navbar Updated (Even Bigger Spotify, Home, About) */
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 100px; /* ✅ Even bigger height */
+    background-color: black;
+    color: white;
+    padding: 0 30px;
+}
+
+nav ul li {
+    padding: 0 30px; /* ✅ More spacing */
+    font-size: 2.5rem; /* ✅ Bigger text size */
+    font-weight: bold;
+}
+
+/* ✅ Even Bigger Spotify Logo */
+.brand img {
+    width: 80px; /* ✅ Increased logo size */
+    padding: 0 15px;
+}
+
+/* ✅ Even Bigger Spotify Text */
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 3rem; /* ✅ Bigger text */
+    font-weight: bold;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* ✅ Song List Positioning */
+.songList {
+    position: absolute;
+    top: 25%;  /* ✅ Lowered further */
+    left: 10%; /* ✅ Keeps it near the girl */
+    width: 30%; /* ✅ Keeps width balanced */
+}
+
+/* ✅ Song Item Styling */
+.songItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    border-radius: 34px;
+    margin: 12px 0;
+    padding: 22px 28px; /* ✅ More padding for better spacing */
+    font-size: 1.6rem; /* ✅ Slightly bigger font */
+}
+
+/* ✅ Song Name Text Size */
+.songItem span {
+    font-size: 2rem; /* ✅ Maximum big size for song names */
+    font-weight: bold;
+}
+
+/* ✅ Song Image Size */
+.songItem img {
+    width: 70px; /* ✅ Slightly increased image size */
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* ✅ Play Button Size */
+.songlistplay i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songInfo {
+    font-family: 'Varela Round', sans-serif;
+}
