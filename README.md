@@ -1,7 +1,3 @@
-
-markdown
-Copy
-Edit
 # 🎵 Spotify Clone
 
 A simple and stylish clone of Spotify showcasing a playlist of NoCopyright songs. This project demonstrates the use of HTML, CSS, and JavaScript to build a clean and functional web music player.
@@ -10,13 +6,6 @@ A simple and stylish clone of Spotify showcasing a playlist of NoCopyright songs
 
 🔗 [Live Demo](https://sathwikprince.github.io/Spotify/)
 
----
-
-## 📸 Screenshot
-
-![App Preview](./assets/screenshot.png)
-
----
 
 ## 🚀 Features
 
